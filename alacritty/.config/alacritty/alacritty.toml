@@ -1,0 +1,17 @@
+general.import=["~/.config/alacritty/argonaut.toml"]
+[env]
+TERM = "xterm-256color"
+[window]
+padding = {x=2,y=2}
+dynamic_padding = true
+opacity = 0.85
+
+[font]
+normal = { family = "MesloLGS Nerd Font Mono", style = "Regular" }
+bold = { family = "MesloLGS Nerd Font Mono", style = "Bold" }
+italic = { family = "MesloLGS Nerd Font Mono", style = "Italic" }
+bold_italic = { family = "MesloLGS Nerd Font Mono", style = "Bold Italic" }
+size = 16
+
+[cursor]
+style = {shape = "Beam"}

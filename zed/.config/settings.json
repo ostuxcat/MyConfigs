@@ -1,0 +1,75 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "collaboration_panel": {
+    "dock": "right"
+  },
+  "project_panel": {
+    "dock": "right"
+  },
+  "git_panel": {
+    "dock": "right"
+  },
+  "outline_panel": {
+    "dock": "right"
+  },
+  "features": {
+    "show_edit_predictions": false,
+    "show_completions_on_input": false,
+    "edit_prediction_provider": "none",
+    "copilot": false,
+    "agent": {
+      "enabled": false,
+      "version": "2"
+    },
+    "assistant": {
+      "enabled": false,
+      "button": false,
+      "version": "2"
+    },
+    "inline_completions": {
+      "enabled": false
+    },
+    "inlay_hints": {
+      "enabled": false
+    },
+    "chat_panel": {
+      "button": "never"
+    }
+  },
+  "languages": {
+    "JavaScript": {
+      "format_on_save": "off",
+      "prettier": {
+        "allowed": false
+      }
+    },
+    "TypeScript": {
+      "format_on_save": "off",
+      "prettier": {
+        "allowed": false
+      }
+    }
+  },
+  "base_keymap": "VSCode",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "ui_font_family": "Noto Sans Mono",
+  "buffer_font_family": "FiraCode Nerd Font Mono",
+  "buffer_font_weight": 100,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Sublime Mariana"
+  }
+}
