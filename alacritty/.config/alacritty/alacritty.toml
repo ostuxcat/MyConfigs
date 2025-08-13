@@ -9,11 +9,11 @@ opacity = 0.85
 columns = 75
 lines = 21
 [font]
-normal = { family = "Martian Mono Nerd Font", style = "Regular" }
-bold = { family = "Martian Mono Nerd Font", style = "Bold" }
-italic = { family = "Martian Mono Nerd Font", style = "Italic" }
-bold_italic = { family = "Martian Mono Nerd Font", style = "Bold Italic" }
-size = 14
+normal = { family = "JetBrains Mono Nerd Font", style = "Regular" }
+bold = { family = "JetBrains Mono Nerd Font", style = "Bold" }
+italic = { family = "JetBrains Mono Nerd Font", style = "Italic" }
+bold_italic = { family = "JetBrains Mono Nerd Font", style = "Bold Italic" }
+size = 15
 
 [cursor]
 style = {shape = "Beam"}
