@@ -71,8 +71,26 @@ ZSH_THEME="ostuxcat"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 # MY SHITTY CONFIG
-alias upd="sudo apt update -y && sudo apt full-upgrade -y && sudo apt autoremove -y"
-alias fwd="sudo fwupdmgr upgrade -y"
+if [[ -f /etc/os-release ]]; then
+    DISTRO=$(grep -m1 "^ID=*" /etc/os-release | cut -d= -f2 | tr -d '"')
+else
+    DISTRO="null"
+fi
+if [[ "$DISTRO" == "debian" ]]; then
+    alias upd="sudo apt update -y && sudo apt full-upgrade -y && sudo apt autoremove -y"
+    alias fwd="sudo fwupdmgr upgrade -y"
+elif [[ "$DISTRO" == "fedora" ]]; then
+    alias upd="sudo dnf upgrade -y && sudo dnf autoremove -y"
+    alias fwd="sudo fwupdmgr upgrade -y"
+elif [[ "$DISTRO" == "arch" ]]; then
+    if [[ -z "$(pacman -Qdtq 2>/dev/null | tr -d '\n')" ]]; then
+        alias upd="sudo pacman -Syu"
+    else
+        alias upd="sudo pacman -Syu && sudo pacman -Rns $(pacman -Qdtq)"
+    fi
+else
+  alias upd='echo "Unknown distro: $DISTRO"'
+fi
 # Neofetch - only run in true terminals, not in VS Code or other apps
 #if [ -z "$ZE_TERM" ] && [ -z "$VSCODE_CLI"] && [ -z "$TERM_PROGRAM" ] && [ -z "$INSIDE_EMACS" ] && [ -z "$SSH_TTY" ]; then
 #    fastfetch --load-config /usr/share/fastfetch/presets/neofetch.jsonc
