@@ -1,4 +1,4 @@
-general.import=["~/.config/alacritty/solarized_dark.toml"]
+general.import=["~/.config/alacritty/argonaut.toml"]
 [env]
 TERM = "rxvt"
 [window]
