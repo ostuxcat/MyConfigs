@@ -1,4 +1,4 @@
-general.import=["~/.config/alacritty/argonaut.toml"]
+general.import=["~/.config/alacritty/solarized_dark.toml"]
 [env]
 TERM = "xterm-256color"
 [window]
