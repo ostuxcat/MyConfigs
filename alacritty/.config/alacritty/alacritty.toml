@@ -1,10 +1,9 @@
-general.import=["~/.config/alacritty/argonaut.toml"]
+general.import=["~/.config/alacritty/themes/solarized_dark.toml"]
 [env]
 TERM = "rxvt"
 [window]
-padding = {x=2,y=2}
-dynamic_padding = true
-opacity = 0.85
+padding = {x=3,y=3}
+opacity = 0.93
 title = "ostuxcat"
 decorations = "none"
 dynamic_title = false
