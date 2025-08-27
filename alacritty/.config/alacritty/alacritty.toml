@@ -1,9 +1,9 @@
-general.import=["~/.config/alacritty/themes/solarized_dark.toml"]
+general.import=["~/.config/alacritty/themes/ostuxcat.toml"]
 [env]
 TERM = "rxvt"
 [window]
 padding = {x=3,y=3}
-opacity = 0.93
+opacity = 0.98
 title = "ostuxcat"
 dynamic_title = false
 [window.dimensions]
