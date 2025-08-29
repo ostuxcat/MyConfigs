@@ -19,30 +19,6 @@
   "outline_panel": {
     "dock": "right"
   },
-  "features": {
-    "show_edit_predictions": false,
-    "show_completions_on_input": false,
-    "edit_prediction_provider": "none",
-    "copilot": false,
-    "agent": {
-      "enabled": false,
-      "version": "2"
-    },
-    "assistant": {
-      "enabled": false,
-      "button": false,
-      "version": "2"
-    },
-    "inline_completions": {
-      "enabled": false
-    },
-    "inlay_hints": {
-      "enabled": false
-    },
-    "chat_panel": {
-      "button": "never"
-    }
-  },
   "languages": {
     "JavaScript": {
       "format_on_save": "off",
@@ -71,5 +47,6 @@
     "mode": "system",
     "light": "One Light",
     "dark": "Sublime Mariana"
-  }
+  },
+  "disable_ai": true
 }
