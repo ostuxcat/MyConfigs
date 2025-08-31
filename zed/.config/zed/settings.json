@@ -24,7 +24,9 @@
   },
   "languages": {
     "Python": {
-      "language_servers": ["pylsp"]
+      "language_servers": ["pylsp"],
+      "soft_wrap": "none",
+      "format_on_save": "off"
     },
     "JavaScript": {
       "format_on_save": "off",
