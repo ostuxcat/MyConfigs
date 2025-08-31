@@ -23,6 +23,9 @@
     "dock": "right"
   },
   "languages": {
+    "Python": {
+      "language_servers": ["pylsp"]
+    },
     "JavaScript": {
       "format_on_save": "off",
       "prettier": {
