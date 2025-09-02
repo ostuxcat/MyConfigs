@@ -7,54 +7,55 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "code_actions_on_format": {
-    "source.removeUnusedImports": false
-  },
-  "collaboration_panel": {
-    "dock": "right"
-  },
-  "project_panel": {
-    "dock": "right"
-  },
-  "git_panel": {
-    "dock": "right"
-  },
-  "outline_panel": {
-    "dock": "right"
-  },
-  "languages": {
-    "Python": {
-      "language_servers": ["pylsp"],
-      "soft_wrap": "none",
-      "format_on_save": "off"
+    "code_actions_on_format": {
+        "source.removeUnusedImports": false
     },
-    "JavaScript": {
-      "format_on_save": "off",
-      "prettier": {
-        "allowed": false
-      }
+    "collaboration_panel": {
+        "dock": "right"
     },
-    "TypeScript": {
-      "format_on_save": "off",
-      "prettier": {
-        "allowed": false
-      }
-    }
-  },
-  "base_keymap": "VSCode",
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
-  },
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
-  "ui_font_family": "JetBrainsMono Nerd Font Mono",
-  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
-  "buffer_font_weight": 500,
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "Sublime Mariana"
-  },
-  "disable_ai": true
+    "project_panel": {
+        "dock": "right"
+    },
+    "git_panel": {
+        "dock": "right"
+    },
+    "outline_panel": {
+        "dock": "right"
+    },
+    "languages": {
+        "Python": {
+            "language_servers": ["pylsp"],
+            "soft_wrap": "none",
+            "format_on_save": "off"
+        },
+        "JavaScript": {
+            "format_on_save": "off",
+            "prettier": {
+                "allowed": false
+            }
+        },
+        "TypeScript": {
+            "format_on_save": "off",
+            "prettier": {
+                "allowed": false
+            }
+        }
+    },
+    "base_keymap": "VSCode",
+    "telemetry": {
+        "diagnostics": false,
+        "metrics": false
+    },
+    "ui_font_size": 16,
+    "buffer_font_size": 16,
+    "ui_font_family": "JetBrainsMono Nerd Font Mono",
+    "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+    "buffer_font_weight": 500,
+    "theme": {
+        "mode": "system",
+        "light": "One Light",
+        "dark": "Sublime Mariana"
+    },
+    "disable_ai": true,
+    "tab_size": 4
 }
