@@ -7,7 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-    "autosave": "on_focus_change",
+    "code_actions_on_format": {
+        "source.removeUnusedImports": false
+    },
     "collaboration_panel": {
         "dock": "right"
     },
@@ -52,7 +54,7 @@
     "theme": {
         "mode": "system",
         "light": "One Light",
-        "dark": "BlackFox"
+        "dark": "Matte Black"
     },
     "disable_ai": true,
     "tab_size": 4
