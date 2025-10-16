@@ -27,9 +27,9 @@
             "format_on_save": "off"
         },
         "JavaScript": {
-            "format_on_save": "off",
+            "format_on_save": "on",
             "prettier": {
-                "allowed": false
+                "allowed": true
             }
         },
         "TypeScript": {
