@@ -127,4 +127,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 unsetopt nomatch
 export PATH=$HOME/.local/bin:$PATH
-. "$HOME/.cargo/env"
+#. "$HOME/.cargo/env"
