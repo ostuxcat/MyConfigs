@@ -46,7 +46,7 @@
         "metrics": false
     },
     "ui_font_size": 16,
-    "buffer_font_size": 16,
+    "buffer_font_size": 28,
     "ui_font_family": "JetBrainsMono Nerd Font Mono",
     "buffer_font_family": "JetBrainsMono Nerd Font Mono",
     "buffer_font_weight": 300,
