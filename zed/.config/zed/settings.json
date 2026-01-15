@@ -7,6 +7,20 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "disable_ai": true,
+    "edit_predictions": {
+        "enabled_in_text_threads": false
+    },
+    "show_edit_predictions": false,
+    "agent": {
+        "use_modifier_to_send": false,
+        "expand_terminal_card": false,
+        "expand_edit_card": false,
+        "enable_feedback": false,
+        "favorite_models": [],
+        "single_file_review": false,
+        "model_parameters": []
+    },
     "autosave": "on_focus_change",
     "collaboration_panel": {
         "dock": "right",
@@ -55,6 +69,5 @@
         "light": "One Light",
         "dark": "BlackFox",
     },
-    "disable_ai": true,
     "tab_size": 4,
 }
