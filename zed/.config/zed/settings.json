@@ -8,11 +8,15 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
     "inlay_hints": {
-        "enabled": true
+        "enabled": true,
+        "show_type_hints": true,
+        "show_other_hints": true,
+        "show_value_hints": true,
+        "show_parameter_hints": true,
     },
     "disable_ai": true,
     "edit_predictions": {
-        "enabled_in_text_threads": false
+        "enabled_in_text_threads": false,
     },
     "show_edit_predictions": false,
     "agent": {
@@ -22,7 +26,7 @@
         "enable_feedback": false,
         "favorite_models": [],
         "single_file_review": false,
-        "model_parameters": []
+        "model_parameters": [],
     },
     "autosave": "on_focus_change",
     "collaboration_panel": {
