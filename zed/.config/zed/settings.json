@@ -14,6 +14,14 @@
         "show_value_hints": true,
         "show_parameter_hints": true,
     },
+    "lsp": {
+        "json-language-server": {
+          "binary": {
+            "path": "bun",
+            "arguments": ["/home/ostuxcat/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
+          }
+        }
+    },
     "disable_ai": true,
     "edit_predictions": {
         "enabled_in_text_threads": false,
