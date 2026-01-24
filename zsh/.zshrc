@@ -37,3 +37,10 @@ source $ZSH/oh-my-zsh.sh
 unsetopt nomatch
 export PATH=$HOME/.local/bin:$PATH
 source "$HOME/.cargo/env"
+
+# bun completions
+[ -s "/home/ostuxcat/.bun/_bun" ] && source "/home/ostuxcat/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
