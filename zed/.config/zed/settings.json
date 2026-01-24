@@ -17,7 +17,7 @@
     "lsp": {
         "json-language-server": {
           "binary": {
-            "path": "bun",
+            "path": "/home/ostuxcat/.bun/bin/bun",
             "arguments": ["/home/ostuxcat/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
           }
         }
