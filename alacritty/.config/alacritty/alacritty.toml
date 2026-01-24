@@ -1,4 +1,4 @@
-general.import=["~/.config/alacritty/themes/ostuxcat.toml"]
+general.import=["~/.config/alacritty/themes/solarized_ostuxcat.toml"]
 [env]
 TERM = "rxvt"
 [window]
@@ -14,7 +14,7 @@ normal = { family = "JetBrains Mono Nerd Font", style = "Regular" }
 bold = { family = "JetBrains Mono Nerd Font", style = "Bold" }
 italic = { family = "JetBrains Mono Nerd Font", style = "Italic" }
 bold_italic = { family = "JetBrains Mono Nerd Font", style = "Bold Italic" }
-size = 15
+size = 21
 
 [cursor]
 style = {shape = "Beam"}
