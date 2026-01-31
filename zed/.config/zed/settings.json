@@ -16,11 +16,14 @@
     },
     "lsp": {
         "json-language-server": {
-          "binary": {
-            "path": "/home/ostuxcat/.bun/bin/bun",
-            "arguments": ["/home/ostuxcat/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server", "--stdio"]
-          }
-        }
+            "binary": {
+                "path": "/home/ostuxcat/.bun/bin/bun",
+                "arguments": [
+                    "/home/ostuxcat/.local/share/zed/languages/json-language-server/node_modules/vscode-langservers-extracted/bin/vscode-json-language-server",
+                    "--stdio",
+                ],
+            },
+        },
     },
     "disable_ai": true,
     "edit_predictions": {
@@ -74,8 +77,8 @@
         "diagnostics": false,
         "metrics": false,
     },
-    "ui_font_size": 16,
-    "buffer_font_size": 28,
+    "ui_font_size": 18,
+    "buffer_font_size": 21,
     "ui_font_family": "JetBrainsMono Nerd Font Mono",
     "buffer_font_family": "JetBrainsMono Nerd Font Mono",
     "buffer_font_weight": 300,
