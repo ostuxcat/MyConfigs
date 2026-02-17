@@ -53,24 +53,10 @@
     "outline_panel": {
         "dock": "right",
     },
-    "languages": {
-        "Python": {
-            "language_servers": ["pylsp"],
-            "soft_wrap": "none",
-            "format_on_save": "on",
-        },
-        "JavaScript": {
-            "format_on_save": "on",
-            "prettier": {
-                "allowed": true,
-            },
-        },
-        "TypeScript": {
-            "format_on_save": "on",
-            "prettier": {
-                "allowed": true,
-            },
-        },
+    "format_on_save": "on",
+    "soft_wrap": "none",
+    "prettier": {
+        "allowed": true,
     },
     "base_keymap": "VSCode",
     "telemetry": {
