@@ -55,6 +55,13 @@
     },
     "format_on_save": "on",
     "soft_wrap": "none",
+    "languages": {
+        "C": {
+            "prettier": {
+                "allowed": false,
+            },
+        },
+    },
     "prettier": {
         "allowed": true,
     },
