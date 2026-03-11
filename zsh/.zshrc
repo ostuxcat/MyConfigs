@@ -11,7 +11,7 @@ unsetopt nomatch;
 
 # MY SHITTY CONFIG
 if [[ -f "/etc/os-release" ]]; then
-    DISTRO=$(grep -m1 "^ID=*" "/etc/os-release" | cut -d= -f2 | tr -d '"');
+    DISTRO=$(grep -m1 "^ID_LIKE=*" "/etc/os-release" | cut -d= -f2 | tr -d '"');
 else
     DISTRO="null";
 fi
