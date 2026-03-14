@@ -26,6 +26,11 @@
         },
     },
     "disable_ai": true,
+    "title_bar": {
+        "show_menus": false,
+        "show_user_menu": false,
+        "show_sign_in": false,
+    },
     "edit_predictions": {
         "enabled_in_text_threads": false,
     },
@@ -41,6 +46,7 @@
     },
     "autosave": "on_focus_change",
     "collaboration_panel": {
+        "button": false,
         "dock": "right",
     },
     "project_panel": {
@@ -77,8 +83,8 @@
     "buffer_font_weight": 300,
     "theme": {
         "mode": "dark",
-        "light": "Gruvbox Material Dark Hard",
-        "dark": "Gruvbox Material Dark Hard",
+        "light": "Gruvbox Dark Hard",
+        "dark": "Gruvbox Dark Hard",
     },
     "tab_size": 4,
 }
