@@ -3,7 +3,7 @@ general.import=["~/.config/alacritty/themes/solarized_ostuxcat.toml"]
 TERM = "rxvt"
 [window]
 padding = {x=3,y=3}
-opacity = 0.98
+opacity = 0.75
 title = "ostuxcat"
 dynamic_title = false
 [window.dimensions]
@@ -15,6 +15,8 @@ bold = { family = "JetBrains Mono Nerd Font", style = "Bold" }
 italic = { family = "JetBrains Mono Nerd Font", style = "Italic" }
 bold_italic = { family = "JetBrains Mono Nerd Font", style = "Bold Italic" }
 size = 15
-
 [cursor]
 style = {shape = "Beam"}
+[colors.primary]
+background = "#1a1a1a"
+foreground = "#d8d8de"
