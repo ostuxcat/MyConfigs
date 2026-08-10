@@ -59,5 +59,3 @@ autoload -Uz compinit && compinit;
 # ZSH PLUGINS
 source "$HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh";
 source "$HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh";
-
-export PATH=$PATH:/home/ostuxcat/.spicetify
