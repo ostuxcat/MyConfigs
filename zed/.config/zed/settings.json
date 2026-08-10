@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "icon_theme": "Zed (Default)",
     "inlay_hints": {
         "enabled": true,
         "show_type_hints": true,
@@ -90,10 +91,10 @@
     "ui_font_family": "JetBrainsMono Nerd Font Mono",
     "buffer_font_family": "JetBrainsMono Nerd Font Mono",
     "buffer_font_weight": 300,
+    "tab_size": 4,
     "theme": {
         "mode": "dark",
-        "light": "Gruvbox Dark Hard",
-        "dark": "Gruvbox Dark Hard",
+        "light": "ostuxcat",
+        "dark": "ostuxcat",
     },
-    "tab_size": 4,
 }
